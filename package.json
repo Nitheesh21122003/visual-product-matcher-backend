@@ -1,0 +1,22 @@
+{
+  "name": "visual-product-matcher-backend",
+  "version": "1.0.0",
+  "description": "Backend server for the Visual Product Matcher project",
+  "main": "server.js",
+  "type": "module",
+  "engines": {
+    "node": ">=18.x"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "multer": "^2.0.2"
+  }
+}
